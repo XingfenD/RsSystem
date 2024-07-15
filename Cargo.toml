@@ -1,0 +1,11 @@
+[package]
+name = "RsSystem"
+version = "0.1.0"
+edition = "2021"
+authors = ["xingfen <z2757341301@gmail.com>"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
